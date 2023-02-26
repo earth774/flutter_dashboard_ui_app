@@ -16,4 +16,5 @@ list I used
 
 package I used
 
-- flutter_svg ^1.1.6
+- flutter_svg v ^1.1.6
+- google_fonts v ^4.0.3
