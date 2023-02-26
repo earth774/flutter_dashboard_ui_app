@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter/src/widgets/container.dart';
 import 'package:flutter/src/widgets/framework.dart';
 import 'package:flutter_svg/svg.dart';
+import 'package:google_fonts/google_fonts.dart';
 
 class HomePage extends StatelessWidget {
   const HomePage({super.key});
@@ -12,10 +13,16 @@ class HomePage extends StatelessWidget {
     var size = MediaQuery.of(context).size;
 
     // style
-    var cardTextStyle = TextStyle(
-      fontFamily: 'Montserrat Regular',
+    // var cardTextStyle = const TextStyle(
+    //   fontFamily: 'Montserrat Regular',
+    //   fontSize: 14,
+    //   color: Color.fromRGBO(63, 63, 63, 1),
+    // );
+
+    var cardTextStyle = GoogleFonts.montserrat(
       fontSize: 14,
       color: Color.fromRGBO(63, 63, 63, 1),
+      fontWeight: FontWeight.w600
     );
 
     return Scaffold(
